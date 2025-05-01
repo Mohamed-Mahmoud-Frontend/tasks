@@ -49,7 +49,24 @@ echo "Get the number of words in this sentence = " . str_word_count($word) . "<b
 
 echo "<h4>problem solving  (8) </h4>";
 
-// if( ){
 
-// }
 
+$first_name = "Eraa";
+$last_name = "Soft";
+$full_name = $first_name . $last_name;
+echo "Full name = $full_name <br>";
+ 
+
+
+if ($full_name == "EraaSoft") {
+    echo "Full name is correct <br>";
+} else {
+    echo "Full name is not correct <br>";
+}
+
+
+$simple_name = "ErraSoft";
+echo str_split($simple_name)[0] . str_split($simple_name)[1] . "/";
+echo str_split($simple_name)[2] . str_split($simple_name)[3] . "/";
+echo str_split($simple_name)[4] . str_split($simple_name)[5] . "/";
+echo str_split($simple_name)[6] . str_split($simple_name)[7] ;
