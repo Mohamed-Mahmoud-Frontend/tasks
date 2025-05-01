@@ -1,0 +1,32 @@
+الفرق بين ال echo , print 
+echo  ليست داله انما هيا construct من اللغه
+Print تعتبر construct  لكنها ترجع قيمه
+
+print تقبل قيمه واحده فقط
+echo تقبل اكثر من قيمه
+
+echo اسرع من  print لانها لاترجع قيمه 
+
+
+echo "hello"; = بترجع نفس الحاجه 
+print "hello"; = return value
+
+
+
+
+include vs require
+الاتنين بيعملو نفس الوظيفه مع اختلاف طريقه عرض الايرور 
+include بتشغل الكود الي بعدها 
+require = fatalerror
+
+امتا استخدم ال include
+ لو ملف عادي مش هيأثر علي حاجات ف الاسكريبت لو مش موجود
+
+امتا استخدم الrequire 
+لو هستخدم مكتبه او حاجه هتكون اساسيه ف الكود  
+
+
+incloude_once  & require_once
+تستخدم لعدم التكرار 
+
+
