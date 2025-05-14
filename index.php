@@ -70,3 +70,12 @@ echo str_split($simple_name)[0] . str_split($simple_name)[1] . "/";
 echo str_split($simple_name)[2] . str_split($simple_name)[3] . "/";
 echo str_split($simple_name)[4] . str_split($simple_name)[5] . "/";
 echo str_split($simple_name)[6] . str_split($simple_name)[7] ;
+
+
+
+
+echo "<h4>problem solving  (9) </h4>";
+$num = 10;
+$num2 = 20;
+$operators = "+-/*";
+         
